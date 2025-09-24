@@ -1,45 +1,68 @@
 <html>
-<head>
-    <title>Mi Primer Página Web - Creada por Ivan Flores</title>
-</head>
-<body>
-    <h1>Bienvenidos a mi primera página web</h1>
-    <p style="text-align:center;">¡Hola mundo desde HTML!</p>
+    <head>
+        <meta charset="UTF-8">
+        <title>Mi primer Página Web - Creada Por: Iván Flores</title>
+    </head>
+
+    <body>
+        <h1>Bienvenido a mi Página Web</h1>
+        <hr>
+        <p align="center">Hola Mundo desde HTML</p>
+        <br>
+
+        <p align="right">
+            Párrafo 1: este párrafo está alineado a la <strong>derecha</strong>. 
+            Texto de ejemplo repetido para simular contenido.
+        </p>
+
+        <p align="left">
+            Párrafo 2: este párrafo está alineado a la <sub>izquierda</sub>.  
+            Texto de ejemplo repetido para simular contenido.
+        </p>
+
+        <p align="center">
+            Párrafo 3: este párrafo está alineado al <u>centro</u>.  
+            Texto de ejemplo repetido para simular contenido.
+        </p>
+
+        <p align="justify">
+            Párrafo 4: este párrafo está <del>justificado</del>.  
+            Texto de ejemplo repetido para simular contenido.
+        </p>
+
+        <form>
+            <h4>Por favor ingresa tus datos personales:</h4>
+
+            <p>Nombre completo:
+                <input type="text" name="nombre">
+            </p>
+
+            <p>Ingresa tu correo electrónico:
+                <input type="email" name="correo">
+            </p>
+
+            <p>Ingresa tu contraseña:
+                <input type="password" name="password">
+            </p>
+
+            <p>Ingresa tu fecha de nacimiento:
+                <input type="date" name="fecha_nacimiento">
+            </p>
+
+            <p>Ingresa la fecha de la cita:
+                <input type="datetime-local" name="cita">
+            </p>
+
+            <p>Ingresa tu edad:
+                <input type="number" name="edad">
+            </p>
+
+            <br>
+            <input type="reset" value="Limpiar formulario">
+        </form>
+    </body>
 
     <footer>
-        <hr>
-        <p style="text-align:center;">Desarrollado por Ivan Flores</p>
+        <h4>Esta página fue creada por: Iván Flores</h4>
     </footer>
-
-    <br>
-
-    <p style="text-align:right;">
-        En el dinámico entorno digital actual, contar con una página web bien estructurada no solo es una necesidad, 
-        sino un activo estratégico para cualquier organización o profesional independiente. Un sitio web correctamente 
-        diseñado permite proyectar confianza, comunicar de manera clara la propuesta de valor y consolidar una presencia 
-        sólida en el mercado. Cada elemento, desde la disposición visual hasta la redacción de los textos, cumple una 
-        función específica orientada a generar impacto positivo en la experiencia del usuario. La clave radica en 
-        encontrar un balance entre estética, funcionalidad y accesibilidad, garantizando así que la plataforma se convierta 
-        en un verdadero canal de crecimiento y posicionamiento.
-    </p>
-
-    <form>
-        <label for="email">Ingresa tu correo electrónico:</label>
-        <input type="email" id="email" name="email" placeholder="Correo electrónico">
-        <br><br>
-
-        <label for="password">Ingresa tu contraseña:</label>
-        <input type="password" id="password" name="password" placeholder="Contraseña">
-        <br><br>
-
-        <label for="date">Ingresa tu fecha de nacimiento:</label>
-        <input type="date" id="date" name="date">
-        <br><br>
-
-        <label for="datetime-local">Fecha y hora de cita:</label>
-        <input type="datetime-local" id="datetime-local" name="datetime-local">
-        <br><br>
-
-        <input type="reset" value="Resetear">
-    </form>
-</body>
+</html>
